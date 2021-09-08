@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Education Management system</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Keywords" content="Best University in The world">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="javascript/js.js="></script>
+
+</head>
+
+<body class="body">
+    <header class="mainheader">
+        <img src="images/logo.png">
+        <content id="search">
+            <form>
+                <input type="text" name="search" placeholder="Search anything..." onclick="window.location.href='search.html'">
+            </form>
+        </content>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="course.html">Course</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <div class="slideshow-container">
+
+        <div class="iambrpslides fade">
+            <div class="numbertext">01 / 03</div>
+            <img src="./images/a.jpg">
+        </div>
+
+        <div class="iambrpslides fade">
+            <div class="numbertext">02 / 03</div>
+            <img src="./images/b.jpg">
+        </div>
+
+        <div class="iambrpslides fade">
+            <div class="numbertext">03 / 03</div>
+            <img src="./images/c.jpg">
+        </div>
+
+    </div>
+
+
+    <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("iambrpslides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 2500);
+        }
+    </script>
+    <br>
+
+    <script type="text/javascript">
+        document.title = "Home";
+    </script>
+
+
+    <script src="scripts/slider.js"></script>
+    <div class="mainContent">
+        <div class="Content">
+            <article class="topContent">
+                <header>
+                    <h3><a href="#" title="My First Post">ICP </a> </h3>
+                </header>
+                <footer>
+
+                </footer>
+                <content>
+                    <p>Education system in our country is very much backdated until now. Institutions use analog ways to keep the records of the students and teacher’s data. But there are many school colleges and universities are now digitalized and they
+                        use their own portal respectively. This application will contain all the data of the institutions students and teachers. On the other hand, it will also notify the administration about the activities of the teachers and students
+
+                    </p>
+                </content>
+            </article>
+
+            <article class="bottomContent">
+                <header>
+                    <h3><a href="#" title="Pathway Program">Pathway Program</a> </h3>
+                </header>
+                <footer>
+
+                </footer>
+                <content>
+                    <p>We plan for quality higher education programs with complete progression pathway for you – from Foundation program up to Postgraduate degree level by the universities in Australia and United Kingdom. Our distinguished Academic and
+                        Examination Board also sets the academic and examination standards of Academy’s programmes. We make learning exclusive for you. We know everyone has different learning needs and lifestyles. We have learning modes ranging from traditional
+                        classroom learning, to e-learning and a combination of both to accommodate to different learning patterns. Our holistic education programme places equal emphasis on both academic and non-academic, co-curricular activities. We strive
+                        to provide learning and support services, as well as a conducive environment for you to learn, live and develop into global thought leaders of tomorrow. We focus in giving you the best.
+
+                    </p>
+                </content>
+            </article>
+
+
+        </div>
+    </div>
+    <aside class="top-sidebar">
+        <article>
+            <h3>Join us today!</h3>
+            <p>Embark on an exciting learning journey with us</p>
+        </article>
+    </aside>
+
+    <aside class="middle-sidebar">
+        <article>
+            <h3>Your Qualification</h3>
+            <p>A Degree to stand out from the crowd…...</p>
+        </article>
+    </aside>
+
+    <aside class="buttom-sidebar">
+        <article>
+            <h3>Be ahead of your peers</h3>
+            <p>Fast track your education with us</p>
+        </article>
+    </aside>
+    <footer class="mainFooter">
+        <p>Copyright &copy <a href="https://www.facebook.com/profile.php?id=100007900456547">Shanjida Akter & Shadman Shakeeb Khan</a> </p>
+        <center>
+            <a href="https://www.facebook.com/profile.php?id=100007900456547">Facebook</a>
+            <a href="https://www.instagram.com/shadman_sakeeb_khan/?utm_medium=copy_link&fbclid=IwAR1U9p0AZ_RTAnX0NpHvSo3I_bzzzuW4fWMdN_llLpwW_RL4ylsrXgcYaq4">Instagram</a>
+
+        </center>
+    </footer>
+
+</body>
+
+</html>

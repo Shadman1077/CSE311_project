@@ -419,7 +419,7 @@ img{
    box-shadow: 0 15px 25px rgba(0,0,0,0.1);
  }
  .box-1,.box-2,.box-3{
-  width: 300;
+  width: 335;
   height: 335px;
   background-color: transparent;
   background-repeat: no-repeat;
@@ -427,7 +427,7 @@ img{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2px,2px;
+  flex-direction: column;
 }
 
 .box-container{
